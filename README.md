@@ -32,5 +32,14 @@ cv_results <- pamr.cv(pamr_model, d)
 plot_pamr_group_errors(pamr_model, d, cv_results, pal = "Set1", legend_position = "bottom")
 ```
 
-
 ![res](https://github.com/cdesterke/ggpostpamr/blob/main/01_plot_pamr_group_errors.png)
+
+## select threshold on fdr
+```r
+myfdr <- pamr.fdr(pamr_model, d)
+plot_fdr(myfdr, d, fdr_cutoff = 0.05, base = 18)
+```
+
+![res](https://github.com/cdesterke/ggpostpamr/blob/main/02_plot_fdr.png)
+
+
