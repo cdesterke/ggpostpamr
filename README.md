@@ -59,3 +59,33 @@ plot_pamr_cv_prob_threshold(cv_results, threshold_value = 1.095,
 
 ![res](https://github.com/cdesterke/ggpostpamr/blob/main/04_plot_pamr_cv_prob_threshold.png)
 
+## dotplot of predictive scores by group
+```r
+plot_pamr_thresholds_cleveland(
+  pamr_model = pamr_model,
+  pamr_data = d,
+  threshold = 1.5,
+  n_genes = 17,
+  base_size = 16,
+  palette = "Set1",
+  dot_size = 4,
+  legend_position = "bottom"
+)
+```
+
+![res](https://github.com/cdesterke/ggpostpamr/blob/main/05_plot_pamr_thresholds_cleveland.png)
+
+## boxplot for a selected feature with statistical test
+```r
+plot_pamr_gene_by_group(
+  pamr_data = d,
+  gene_name = "FGF13",
+  palette = "Dark2",
+  base_size = 16,
+  dot_size = 3,
+  legend_position = "bottom"
+)
+)
+```
+
+![res](https://github.com/cdesterke/ggpostpamr/blob/main/06_plot_pamr_gene_by_group.png)
