@@ -48,3 +48,14 @@ plot_matrix(pamr_model, d, myfdr, fdr_cutoff = 0.05, base = 18)
 ```
 
 ![res](https://github.com/cdesterke/ggpostpamr/blob/main/03_plot_matrix.png)
+
+## confusion matrix for selected threshold
+```r
+plot_pamr_cv_prob_threshold(cv_results, threshold_value = 1.095,
+                            palette = "Dark2",
+                            point_size = 3,
+                           legend_position = "bottom")
+```
+
+![res](https://github.com/cdesterke/ggpostpamr/blob/main/04_plot_pamr_cv_prob_threshold.png)
+
