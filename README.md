@@ -42,4 +42,9 @@ plot_fdr(myfdr, d, fdr_cutoff = 0.05, base = 18)
 
 ![res](https://github.com/cdesterke/ggpostpamr/blob/main/02_plot_fdr.png)
 
+## confusion matrix for selected threshold
+```r
+plot_matrix(pamr_model, d, myfdr, fdr_cutoff = 0.05, base = 18)
+```
 
+![res](https://github.com/cdesterke/ggpostpamr/blob/main/03_plot_matrix.png)
