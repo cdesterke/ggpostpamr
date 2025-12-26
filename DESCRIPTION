@@ -1,0 +1,21 @@
+Package: ggpostpamr
+Type: Package
+Title: Modern ggplot2 Graphs for PAMR Analysis
+Version: 1.0.0
+Author: Christophe Desterke
+Maintainer: Christophe Desterke <christophe.desterke@gmail.com>
+Description: Provides modern and customizable ggplot2-based visualizations 
+    for PAMR (Prediction Analysis for Microarrays) results. 
+    Includes several functions to explore and display PAMR outputs 
+    in a publication-ready format.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    ggplot2,
+    dplyr,
+    tidyr,
+    pamr,
+    caret,
+    RColorBrewer
+RoxygenNote: 7.3.2
