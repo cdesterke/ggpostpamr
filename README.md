@@ -33,4 +33,4 @@ plot_pamr_group_errors(pamr_model, d, cv_results, pal = "Set1", legend_position 
 ```
 
 
-![res](https://github.com/cdesterke/rcd/blob/main/over.png)
+![res](https://github.com/cdesterke/ggpostpamr/blob/main/01_plot_pamr_group_errors.png)
