@@ -89,3 +89,11 @@ plot_pamr_gene_by_group(
 ```
 
 ![res](https://github.com/cdesterke/ggpostpamr/blob/main/06_plot_pamr_gene_by_group.png)
+
+# REFERENCES
+
+> Tibshirani R., Hastie T., Narasimhan B., Chu G.  
+Diagnosis of multiple cancer types by shrunken centroids of gene expression.  
+Proceedings of the National Academy of Sciences (PNAS), 2002.
+DOI : 10.1073/pnas.082099299
+
