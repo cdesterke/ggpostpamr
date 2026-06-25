@@ -93,10 +93,9 @@ plot_pamr_gene_by_group(
 # REFERENCES
 
 > Tibshirani R., Hastie T., Narasimhan B., Chu G. Diagnosis of multiple cancer types by shrunken centroids of gene expression.  
-Proceedings of the National Academy of Sciences (PNAS), 2002. DOI : 10.1073/pnas.082099299
+Proceedings of the National Academy of Sciences (PNAS), 2002. DOI : 10.1073/pnas.082099299.
 
 # CITATIONS
-
 > Christophe Desterke, Ana Jarén, Raquel Francés, Íñigo Casafont, María Dolores Barrachina, Juan V Esplugues, Jorge Mata-Garrido,
 Integrative transcriptomic and CRISPR dependency analysis identifies hepatoblastoma-specific essential genes and actionable vulnerabilities, Cancer Genetics, 2026, ISSN 2210-7762, https://doi.org/10.1016/j.cancergen.2026.06.008.
 
